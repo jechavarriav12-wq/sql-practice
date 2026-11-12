@@ -9,7 +9,7 @@ Seis tablas: `vendedores`, `clientes`, `productos`, `ventas`, `seats` y `factura
 Para generar la base en local:
 
 ```bash
-uv run --with duckdb python datos/setup_db.py
+uv run --with duckdb==1.5.6 python datos/setup_db.py
 ```
 
 ## Contenido
