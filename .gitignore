@@ -1,0 +1,7 @@
+# Base de datos (se genera con datos/setup_db.py)
+*.duckdb
+*.duckdb.wal
+
+# Python
+__pycache__/
+.venv/
